@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        SONAR_URL = "http://13.233.238.98:9000/"  // Update with your SonarQube server IP
+        SONAR_URL = "http://15.206.82.204:9000/"  // Update with your SonarQube server IP
         DOCKER_IMAGE = "bhargavibindu/ultimate-cicd-pipeline:${BUILD_NUMBER}" // Update with your DockerHub username
     }
 
